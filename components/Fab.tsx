@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { View, Text, style } from 'react-native'
 
 /*interface Props{
@@ -6,7 +6,7 @@ import { View, Text, style } from 'react-native'
     size?: 'sm' | 'md' | 'lg';
     title: string;
     onPress: () => void
-}*/
+}
 
 const FloatingActionButton = ({ size, positition, title, onPress}) => {
     return (
@@ -18,4 +18,4 @@ const FloatingActionButton = ({ size, positition, title, onPress}) => {
             size === 'lg' ? style.sm : null
         ]}/>
     )
-}
+}*/

@@ -5,8 +5,12 @@ import Props from './Props';
 function Convertidor() {
 
     const [cordoba, setCordoba] = useState('')
+
     const [dolar, setDolar] = useState('')
-    const [Euro, setEuro] = useState('')
+
+    const [euro, setEuro] = useState('')
+    
+    const [multiplicar, setMultiplicar] = useState(0)
 
     const handleCordoba = (texto: string) => {
         setCordoba(texto)
@@ -16,6 +20,11 @@ function Convertidor() {
     }
     const handleEuro = (texto: string) => {
         setEuro(texto)
+    }
+    const handleMultiplicar = (texto: string)=>{
+
+        const numero = parseFloat(texto)
+        
     }
 
     const handleCalcular = () => {
