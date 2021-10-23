@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { View, Text, TextInput, StyleSheet, Button, } from 'react-native';
+import Props from './Props';
 
 function Convertidor() {
 
